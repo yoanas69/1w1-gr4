@@ -1,0 +1,171 @@
+/*
+https://developer.mozilla.org/fr/docs/web/css/css_selectors
+*/
+
+.formulaire{
+    display : flex;
+    flex-direction: column;
+    gap : 50px;
+}
+.formulaire input[type="text"]{
+    background-color: rgb(255, 255, 255);
+}
+.formulaire fieldset {
+    background-color: #bbb;
+    display : flex;
+    gap: 10px;
+    background-color: unset;
+    border: none;
+}
+.formulaire legend {
+    font-size: 1.5rem;
+    padding : 3px;
+}
+.formulaire .langage {
+    background-color: unset;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*interactions*/
+#inscription .div1_inscription{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+   
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 1px 0px 0px 13px;
+}
+.section_formulaire{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#lol_img {
+    filter: grayscale(1);
+    transform: scale(0.55);
+    transition: transform .25s;
+
+}
+#lol_img:hover{
+    filter: grayscale(50%);
+    transform: scale(0.7);
+}
+
+#league:checked + label > img {
+    filter: grayscale(0%);
+    transform:scale(1) ;
+} 
+#league{
+    display: none;
+}
+#valo_img {
+    filter: grayscale(1);
+    transform: scale(0.55);
+    transition: transform .25s;
+
+}
+#valo_img:hover{
+    filter: grayscale(50%);
+    transform: scale(0.7);
+}
+
+#valo:checked + label > img {
+    filter: grayscale(0%);
+    transform:scale(1) ;
+} 
+#valo{
+    display: none;
+}
+
+#song_img {
+    filter: grayscale(1);
+    transform: scale(0.55);
+    transition: transform .25s;
+
+}
+#song_img:hover{
+    filter: grayscale(50%);
+    transform: scale(0.7);
+}
+
+#song:checked + label > img {
+    filter: grayscale(0%);
+    transform:scale(1) ;
+} 
+#song{
+    display: none;
+}
+
+#run_img {
+    filter: grayscale(1);
+    transform: scale(0.55);
+    transition: transform .25s;
+
+}
+#run_img:hover{
+    filter: grayscale(50%);
+    transform: scale(0.7);
+}
+
+#lor:checked + label > img {
+    filter: grayscale(0%);
+    transform:scale(1) ;
+} 
+#lor{
+    display: none;
+}
+
+#ruin_img {
+    filter: grayscale(1);
+    transform: scale(0.55);
+    transition: transform .25s;
+
+}
+#ruin_img:hover{
+    filter: grayscale(50%);
+    transform: scale(0.7);
+}
+
+#ruin:checked + label > img {
+    filter: grayscale(0%);
+    transform:scale(1) ;
+} 
+#ruin{
+    display: none;
+}
+
+#ekko_img {
+    filter: grayscale(1);
+    transform: scale(0.55);
+    transition: transform .25s;
+
+}
+#ekko_img:hover{
+    filter: grayscale(50%);
+    transform: scale(0.7);
+}
+#ekko:checked + label > img {
+    filter: grayscale(0%);
+    transform:scale(1) ;
+} 
+#ekko{
+    display: none;
+}
+
+#inscription h3 {
+    font-size: 30px;
+    padding-left: 50px;
+    
+}

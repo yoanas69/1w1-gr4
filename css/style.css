@@ -1,0 +1,122 @@
+* {
+    margin : 0;
+    padding:0;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+/*  la balise body est le conteneur principal
+     flexbox dont les enfants s'afficheront sur une colonne
+     flex-direction : column;
+*/     
+
+body{
+    display : flex;
+    flex-direction:column;
+} 
+
+/*
+opérateur de sélection « > » permet de sélectionner
+ l'enfant direct de la balise qui précède le «>»
+ La différence entre « > » et « » c'est que plus grand permet de sélectionner
+ l'enfant direct et « » permet de sélectionner l'enfant l'arrière petite enfant et ainsi de suite.
+
+ Le « > » est plus spécifique que l'aopérateur « »
+*/
+
+/*
+ C'est toujours le dernier élément de la suite qui est sélectionné. 
+ Et c'est sur cet élément qu'on applique la règle de style
+*/
+body  > div {
+    display : flex;
+    justify-content: center;
+}
+/*placer entete au premier plan*/
+#entete {
+    z-index: 1;
+}
+/*formater body*/
+body > div > section, main,.div1_inscription,
+body > div > footer,
+body > div > header {
+    display : flex;
+    flex: 0 1 1100px;
+    border : 10px solid rgba(137, 43, 226, 0.712);
+    box-shadow: 2px 0px 30px #ff0076f0;
+    background-color: #000000f2;
+    
+}
+body > div > section {
+    min-height: 100vh;
+}
+
+
+body > div > header{
+    position : relative;
+    
+}
+
+
+/* Entete */
+
+
+header{
+    background-image: url("../images/head-2.png");
+}
+
+body{
+    background-image:  url("../images/true-6.png");
+    color: rgb(255, 0, 85)
+
+}
+ 
+.entete__form {
+    flex: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #e2ffff;
+    border: 1px solid #555;
+    padding: 4px 4px 2px 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+
+   
+  }
+
+  .rito{
+    margin: 0 auto;
+  
+  }
+
+  h2{
+    font-family: 'Permanent Marker', cursive;
+    padding:0px 0px 0px  20px;
+    font-size: 50px;
+
+  }
+  /*body*/
+
+body>div:nth-of-type(1){
+  
+    position : sticky;
+    top : 0;
+}
+
+
+header h1{
+    font-size: 52px;
+    margin: 0;
+}
+
+h6{
+    font-size: 0;
+}

@@ -1,0 +1,29 @@
+.acceuil_section2{
+    display: flex;
+    flex: 0 1 290px;
+    background-color: rgba(0,0,0,.1);
+    flex-direction: column;
+}
+
+.acceuil_section2 div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.acceuil_section{
+    padding: 0px 0px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ 
+}
+.acceuil_section2  h3{
+    border: 5px solid rgba(137, 43, 226, 0.712);
+    font-size: 30px;
+    /*text-align: center;*/
+    
+}
+
+.acceuil_section p {
+    font-size: 30px;
+}

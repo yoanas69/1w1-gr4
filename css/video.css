@@ -1,0 +1,23 @@
+.section_video{
+    gap: 50px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-content: center; */
+    align-items: center;
+}
+
+/* position des images*/
+.figure_video{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    gap: 140px;
+}
+/* gandeur des images */
+.video_img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}

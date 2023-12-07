@@ -1,0 +1,46 @@
+/* position des images*/
+.galerie{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+}
+.jeux_moment{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 40px 0px;
+    gap: 30px;
+ 
+
+}
+
+.galerie_tout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.img_galerie{
+    box-shadow: 2px 0px 30px #0d0b69bf;
+  
+}
+/*interactions*/
+.img_galerie{
+    filter: grayscale(1);
+    transform: scale(0.55);
+    transition: transform .25s;
+}
+.img_galerie:hover{
+    filter: grayscale(50%);
+    transform: scale(0.7);
+}
+
+.img_galerie:focus{
+    filter: grayscale(0%);
+   transform:scale(1) ;
+  
+}

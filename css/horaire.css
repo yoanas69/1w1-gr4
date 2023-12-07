@@ -1,0 +1,55 @@
+/*formater td et th */
+.horaire td ,.horaire th {
+padding: 5px;   
+}
+/*formater table */
+.horaire{
+    font-size: clamp(1rem, 2.5vw, 2rem); 
+
+}
+/*formater caption */
+.horaire caption{
+    font-family: 'Alumni Sans Inline One', sans-serif;
+    background-color: rgb(218, 159, 245);
+    font-size: 50px;
+}
+/*formater th */
+.horaire th {
+    font-family: "Agbalumo";
+}
+/*formater td */
+.horaire td{
+    font-family: "Pacifico";
+}
+/*formater heure */
+.horaire .heure{
+    font-family: 'Kenia', sans-serif;;
+}
+/*formater pause */
+.horaire .pause{
+    background-color: rgba(0, 0, 255, 0.63);
+    font-family: 'Abril Fatface', serif;
+}
+/*body>div:nth-of-type(2){
+  
+   background-color: rgba(238, 130, 238, 0.445);
+}
+body>div:nth-of-type(3){
+    background-color: rgba(0, 17, 255, 0.411);
+}
+body>div:nth-of-type(4){
+    background-color: rgba(255, 0, 0, 0.411);
+}*/
+
+#horaire1 section{
+ 
+    flex-direction: column;
+    gap: 30px;
+
+}
+/*formater td th et table */
+.horaire td ,.horaire th,.horaire{
+    border: #7f2c7f26 solid 5px;
+    background-color: rgb(95 6 89 / 49%);
+    color:rgb(60, 255, 0);
+}
